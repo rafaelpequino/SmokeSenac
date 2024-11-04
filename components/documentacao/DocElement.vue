@@ -1,7 +1,7 @@
 <template>
     <section id="document">
         <div id="inside-document">
-            <h1>Documentação</h1>
+            <h1 class="page-title">Documentação</h1>
             <div class="book-access">
                 <div class="doc-icon">
                     <img src="/public/img/doc-icon.png" alt="Ícone de representação de um documento">
@@ -35,24 +35,6 @@ section#document {
     width: 100%;
     max-width: 1280px;
     padding: 80px 0;
-}
-
-h1 {
-    font-size: 2em;
-    color: #fff;
-    position: relative;
-    max-width: max-content;
-    margin-bottom: 50px;
-}
-
-h1::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 60%;
-    height: 3px;
-    background-color: #fff;
 }
 
 .book-access {

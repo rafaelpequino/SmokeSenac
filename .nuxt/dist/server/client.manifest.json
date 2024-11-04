@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/rafae/OneDrive/Documentos/Dev/Smoke/node_modules/nuxt/dist/app/entry.js": {
+  "C:/Users/home/source/repos/SmokeSenac/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "C:/Users/rafae/OneDrive/Documentos/Dev/Smoke/node_modules/nuxt/dist/app/entry.js"
+    "file": "C:/Users/home/source/repos/SmokeSenac/node_modules/nuxt/dist/app/entry.js"
   }
 }

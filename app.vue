@@ -20,6 +20,24 @@
   --second-color: #F18500;
 }
 
+h1.page-title {
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    max-width: max-content;
+    margin-bottom: 50px;
+}
+
+h1.page-title::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 60%;
+    height: 3px;
+    background-color: #fff;
+}
+
 h2 {
   color: var(--second-color);
   margin-bottom: 30px;
