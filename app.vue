@@ -21,21 +21,21 @@
 }
 
 h1.page-title {
-    font-size: 2em;
-    color: #fff;
-    position: relative;
-    max-width: max-content;
-    margin-bottom: 50px;
+  font-size: 2em;
+  color: #fff;
+  position: relative;
+  max-width: max-content;
+  margin-bottom: 50px;
 }
 
 h1.page-title::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 60%;
-    height: 3px;
-    background-color: #fff;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 60%;
+  height: 3px;
+  background-color: #fff;
 }
 
 h2 {
@@ -57,8 +57,13 @@ p {
 }
 
 @media (max-width: 500px) {
+  h1.page-title {
+    font-size: 1.8em;
+    line-height: 1em;
+  }
+
   h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 

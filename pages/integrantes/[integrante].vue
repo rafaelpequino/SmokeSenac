@@ -1,24 +1,15 @@
 <template>
-    <div>Você está na página do {{ $route.params.integrante }}</div>
+  <Cheader />
+  <MemberElement :username="$route.params.integrante" />
+  <Cfooter />
 </template>
 
 <script>
-import MembersList from '~/js/members.json';
+import Cfooter from '~/components/global/Cfooter.vue';
+import Cheader from '~/components/global/Cheader.vue';
+import MemberElement from '~/components/integrantes/MemberElement.vue';
 
 export default {
-  data() {
-    return {
-        MembersList,
-        member: null
-    };
-  },
-  methods: {
-    buscarUsuario() {
-      this.member = this.MembersList.find(usuario => usuario.user === this.$route.params.integrante);
-    }
-  },
-  mounted() {
-    this.buscarUsuario(); // Chama a função ao montar o componente
-  }
+  components: { Cheader, MemberElement, Cfooter }
 };
 </script>
