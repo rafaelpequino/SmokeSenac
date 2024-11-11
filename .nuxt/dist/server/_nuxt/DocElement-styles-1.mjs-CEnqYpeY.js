@@ -1,0 +1,5 @@
+const DocElement_vue_vue_type_style_index_0_scoped_946e1413_lang = "section#document[data-v-946e1413]{align-items:center;background-color:var(--first-color);display:flex;justify-content:center;min-height:calc(100vh - 98px);padding:50px 30px;width:100%}#inside-document[data-v-946e1413]{max-width:1280px;padding:80px 0;width:100%}.book-access[data-v-946e1413]{align-items:center;display:flex;gap:35px;justify-content:center;margin:auto;max-width:-moz-max-content;max-width:max-content}.doc-icon>img[data-v-946e1413]{width:200px}.doc-data>a[data-v-946e1413]{border:3px solid var(--second-color);border-radius:30px;color:#fff;display:block;font-size:1.2em;margin:auto;padding:10px 80px;text-decoration:none;transition:.3s;width:-moz-max-content;width:max-content}.doc-data>a[data-v-946e1413]:hover{background-color:var(--second-color)}@media (max-width:700px){.book-access[data-v-946e1413]{flex-direction:column;gap:50px}}";
+export {
+  DocElement_vue_vue_type_style_index_0_scoped_946e1413_lang as default
+};
+//# sourceMappingURL=DocElement-styles-1.mjs-CEnqYpeY.js.map
