@@ -1173,8 +1173,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-7lu3QXZ7.js"));
-    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-D5qzI_AX.js"));
+    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-DwbUMA09.js"));
+    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-C8K18OLa.js"));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
