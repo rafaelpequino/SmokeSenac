@@ -1,32 +1,32 @@
-import { version, unref, inject, defineAsyncComponent, defineComponent, provide, shallowReactive, h, ref, watch, Suspense, nextTick, Fragment, Transition, hasInjectionContext, getCurrentInstance, useSSRContext, createApp, effectScope, reactive, getCurrentScope, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, toRef, mergeProps, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/vue/index.mjs';
-import { $fetch } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/ofetch/dist/node.mjs';
+import { version, unref, inject, defineAsyncComponent, defineComponent, provide, shallowReactive, h, ref, watch, Suspense, nextTick, Fragment, Transition, hasInjectionContext, getCurrentInstance, useSSRContext, createApp, effectScope, reactive, getCurrentScope, onErrorCaptured, onServerPrefetch, createVNode, resolveDynamicComponent, toRef, mergeProps, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/vue/index.mjs';
+import { $fetch } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/ofetch/dist/node.mjs';
 import { b as baseURL } from '../_/renderer.mjs';
-import { createHooks } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/hookable/dist/index.mjs';
-import { getContext } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unctx/dist/index.mjs';
-import { sanitizeStatusCode, createError as createError$1, appendHeader } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/h3/dist/index.mjs';
-import { getActiveHead, CapoPlugin } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/@unhead/shared/dist/index.mjs';
-import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/vue-router/dist/vue-router.node.mjs';
-import { toRouteMatcher, createRouter as createRouter$1 } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/radix3/dist/index.mjs';
-import { defu } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/defu/dist/defu.mjs';
-import { hasProtocol, isScriptProtocol, joinURL, withQuery } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/ufo/dist/index.mjs';
-import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/vue/server-renderer/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/devalue/index.js';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/@unhead/ssr/dist/index.mjs';
+import { createHooks } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/hookable/dist/index.mjs';
+import { getContext } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unctx/dist/index.mjs';
+import { sanitizeStatusCode, createError as createError$1, appendHeader } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/h3/dist/index.mjs';
+import { getActiveHead, CapoPlugin } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/@unhead/shared/dist/index.mjs';
+import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/vue-router/dist/vue-router.node.mjs';
+import { toRouteMatcher, createRouter as createRouter$1 } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/radix3/dist/index.mjs';
+import { defu } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/defu/dist/defu.mjs';
+import { hasProtocol, isScriptProtocol, joinURL, withQuery } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/ufo/dist/index.mjs';
+import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/vue/server-renderer/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/devalue/index.js';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/@unhead/ssr/dist/index.mjs';
 import '../runtime.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/destr/dist/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/klona/dist/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/scule/dist/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/ohash/dist/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unstorage/dist/index.mjs';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/destr/dist/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/klona/dist/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/scule/dist/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/ohash/dist/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unstorage/dist/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///C:/Users/home/source/repos/SmokeSenac/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unstorage/drivers/fs-lite.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/pathe/dist/index.mjs';
+import 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/pathe/dist/index.mjs';
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch.create({
@@ -585,27 +585,27 @@ const _routes = [
   {
     name: "documentacao",
     path: "/documentacao",
-    component: () => import('./documentacao-DY_GU--t.mjs')
+    component: () => import('./documentacao-vdo3PCgj.mjs')
   },
   {
     name: "evento",
     path: "/evento",
-    component: () => import('./evento-DjN3YHeO.mjs')
+    component: () => import('./evento-DyOrK6Et.mjs')
+  },
+  {
+    name: "galeria",
+    path: "/galeria",
+    component: () => import('./galeria-BlpIWZLJ.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CQw_4i5I.mjs')
+    component: () => import('./index-DryRRwlp.mjs')
   },
   {
     name: "integrantes-integrante",
     path: "/integrantes/:integrante()",
-    component: () => import('./_integrante_-BtDe7Akf.mjs')
-  },
-  {
-    name: "referencias",
-    path: "/referencias",
-    component: () => import('./referencias-D6Ki9AkW.mjs')
+    component: () => import('./_integrante_-BtuAkG3p.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -938,7 +938,7 @@ const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
   }
 });
 const LazyCfooter = defineAsyncComponent(() => import('./Cfooter-BaHlu9C5.mjs').then((r) => r["default"] || r.default || r));
-const LazyCheader = defineAsyncComponent(() => import('./Cheader-CIEFYnVH.mjs').then((r) => r["default"] || r.default || r));
+const LazyCheader = defineAsyncComponent(() => import('./Cheader-DNqpYksd.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["Cfooter", LazyCfooter],
   ["Cheader", LazyCheader]
@@ -1186,8 +1186,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import('./error-404-DwbUMA09.mjs'));
-    const _Error = defineAsyncComponent(() => import('./error-500-C8K18OLa.mjs'));
+    const _Error404 = defineAsyncComponent(() => import('./error-404-7lu3QXZ7.mjs'));
+    const _Error = defineAsyncComponent(() => import('./error-500-D5qzI_AX.mjs'));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));

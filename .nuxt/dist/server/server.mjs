@@ -569,27 +569,27 @@ const _routes = [
   {
     name: "documentacao",
     path: "/documentacao",
-    component: () => import("./_nuxt/documentacao-DY_GU--t.js")
+    component: () => import("./_nuxt/documentacao-vdo3PCgj.js")
   },
   {
     name: "evento",
     path: "/evento",
-    component: () => import("./_nuxt/evento-DjN3YHeO.js")
+    component: () => import("./_nuxt/evento-DyOrK6Et.js")
+  },
+  {
+    name: "galeria",
+    path: "/galeria",
+    component: () => import("./_nuxt/galeria-BlpIWZLJ.js")
   },
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-CQw_4i5I.js")
+    component: () => import("./_nuxt/index-DryRRwlp.js")
   },
   {
     name: "integrantes-integrante",
     path: "/integrantes/:integrante()",
-    component: () => import("./_nuxt/_integrante_-BtDe7Akf.js")
-  },
-  {
-    name: "referencias",
-    path: "/referencias",
-    component: () => import("./_nuxt/referencias-D6Ki9AkW.js")
+    component: () => import("./_nuxt/_integrante_-BtuAkG3p.js")
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -922,7 +922,7 @@ const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
   }
 });
 const LazyCfooter = defineAsyncComponent(() => import("./_nuxt/Cfooter-BaHlu9C5.js").then((r) => r["default"] || r.default || r));
-const LazyCheader = defineAsyncComponent(() => import("./_nuxt/Cheader-CIEFYnVH.js").then((r) => r["default"] || r.default || r));
+const LazyCheader = defineAsyncComponent(() => import("./_nuxt/Cheader-DNqpYksd.js").then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["Cfooter", LazyCfooter],
   ["Cheader", LazyCheader]
@@ -1173,8 +1173,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-DwbUMA09.js"));
-    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-C8K18OLa.js"));
+    const _Error404 = defineAsyncComponent(() => import("./_nuxt/error-404-7lu3QXZ7.js"));
+    const _Error = defineAsyncComponent(() => import("./_nuxt/error-500-D5qzI_AX.js"));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));

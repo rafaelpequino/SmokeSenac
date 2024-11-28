@@ -1,21 +1,21 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/ofetch/dist/node.mjs';
-import destr from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/hookable/dist/index.mjs';
-import { klona } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/klona/dist/index.mjs';
-import { snakeCase } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/scule/dist/index.mjs';
-import defu, { defuFn } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/ufo/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unstorage/drivers/fs.mjs';
-import file_58_47_47_47C_58_47Users_47rafae_47OneDrive_47Documentos_47Dev_47SmokeSenac_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js from 'file:///C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
-import unstorage_47drivers_47fs_45lite from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/unstorage/drivers/fs-lite.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/radix3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, createError, getResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/ofetch/dist/node.mjs';
+import destr from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/hookable/dist/index.mjs';
+import { klona } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/klona/dist/index.mjs';
+import { snakeCase } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/scule/dist/index.mjs';
+import defu, { defuFn } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/ufo/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unstorage/drivers/fs.mjs';
+import file_58_47_47_47C_58_47Users_47home_47source_47repos_47SmokeSenac_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js from 'file:///C:/Users/home/source/repos/SmokeSenac/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js';
+import unstorage_47drivers_47fs_45lite from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/unstorage/drivers/fs-lite.mjs';
+import { toRouteMatcher, createRouter } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'file://C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/pathe/dist/index.mjs';
+import { dirname, resolve } from 'file://C:/Users/home/source/repos/SmokeSenac/node_modules/pathe/dist/index.mjs';
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();
@@ -66,7 +66,7 @@ const appConfig = defuFn(inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "4586d769-9655-4f64-9c7a-7ae58453f08c",
+    "buildId": "79ef81e1-9fb8-44bd-b40b-b6a307d6ca1a",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -139,7 +139,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/home/source/repos/SmokeSenac/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -151,12 +151,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', file_58_47_47_47C_58_47Users_47rafae_47OneDrive_47Documentos_47Dev_47SmokeSenac_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"file:///C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"C:/Users/rafae/OneDrive/Documentos/Dev/SmokeSenac/.nuxt/cache/nitro/prerender"}));
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"C:\\Users\\rafae\\OneDrive\\Documentos\\Dev\\SmokeSenac\\.data\\kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\rafae\\OneDrive\\Documentos\\Dev\\SmokeSenac","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\rafae\\OneDrive\\Documentos\\Dev\\SmokeSenac\\server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\rafae\\OneDrive\\Documentos\\Dev\\SmokeSenac\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\rafae\\OneDrive\\Documentos\\Dev\\SmokeSenac\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('internal:nuxt:prerender', file_58_47_47_47C_58_47Users_47home_47source_47repos_47SmokeSenac_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"file:///C:/Users/home/source/repos/SmokeSenac/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"C:/Users/home/source/repos/SmokeSenac/.nuxt/cache/nitro/prerender"}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"C:\\Users\\home\\source\\repos\\SmokeSenac\\.data\\kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\home\\source\\repos\\SmokeSenac","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:\\Users\\home\\source\\repos\\SmokeSenac\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\home\\source\\repos\\SmokeSenac\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:\\Users\\home\\source\\repos\\SmokeSenac\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -748,11 +748,11 @@ const _f4b49z = eventHandler((event) => {
   return readAsset(id);
 });
 
-const _lazy_9ksdC3 = () => import('./_/renderer.mjs').then(function (n) { return n.r; });
+const _lazy_EJLdZ7 = () => import('./_/renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '/**', handler: _lazy_9ksdC3, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_EJLdZ7, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
